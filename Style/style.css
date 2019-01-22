@@ -8,16 +8,18 @@ body{
 }
 
 .navbar{
-    width: 92%;
+    width: 99.9%;
     background-color : rgb(64, 68, 67);
-    height : 17.5% ;
+    height : 20% ;
+    vertical-align: center;
 }
 
-.logo{
-    float: left;
-    width :auto;
+.logo img{
     height: 90%;
-    margin: 10px 0px 0px 40px;
+    width: auto;
+    margin-left: 50px;
+    margin-top:5px;
+    float: left;
 }
 
 .menu{
@@ -46,37 +48,42 @@ body{
     color: black;
     text-decoration-color: aliceblue;
     font-size: 30px ;
-    text
 }
 
 .what_is_event{
     font-size : 22px ;
+    position: relative;
+    display: block;
     
 }
 
 .abtevent_text{
-    position: absolute;
     float: left;
     margin : 60px 0px 0px 60px;
     right : 40% ;
     text-align: left;
-}
-
-.abtevent_img{
+    display: inline;
     position: absolute;
-    float: right;
-    left: 70%;
 }
 
 .abtevent_img img{
-    margin: 120px 0px 0px 60px;
-    height: 200px;
+    margin: 120px 0px 0px 0px;
+    height: 300px;
     width: auto;
+    float: right;
+    left: 70%;
+    display: inline;
+    position: static;
 }
 
 
 .highlights{
-
+    position: relative;
+    text-align: center;
+    top : 500px;
+    bottom: 0px;
+    display: block;
+    width : 100%;
 }
 
 .gallery{
