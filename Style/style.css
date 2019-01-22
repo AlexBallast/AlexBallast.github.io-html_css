@@ -50,8 +50,30 @@ body{
 }
 
 .what_is_event{
-
+    font-size : 22px ;
+    
 }
+
+.abtevent_text{
+    position: absolute;
+    float: left;
+    margin : 60px 0px 0px 60px;
+    right : 40% ;
+    text-align: left;
+}
+
+.abtevent_img{
+    position: absolute;
+    float: right;
+    left: 70%;
+}
+
+.abtevent_img img{
+    margin: 120px 0px 0px 60px;
+    height: 200px;
+    width: auto;
+}
+
 
 .highlights{
 
