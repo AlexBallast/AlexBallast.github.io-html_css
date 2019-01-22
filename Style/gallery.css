@@ -1,0 +1,11 @@
+.gallery{
+    background-color: blueviolet;
+}
+
+table{
+    border: 5px solid black;
+    width: 98%;
+}
+table td{
+    width : 24.5%;
+}

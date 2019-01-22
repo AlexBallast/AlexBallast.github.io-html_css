@@ -1,0 +1,28 @@
+.spoonser{
+    display: flex;
+    width :99%;
+    background-color: royalblue;
+    height: 100px;
+    text-align: center;
+}
+
+.spo1{
+    display: inline;
+    float: left;
+    width : 33%;
+    background-color: blue
+}
+
+.spo2{
+    display: inline;
+    float: left;
+    width : 33%;
+    background-color: brown
+}
+
+.spo3{
+    display: inline;
+    float: right;
+    width : 33%;
+    background-color: royalblue;
+}
