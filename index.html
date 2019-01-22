@@ -5,7 +5,9 @@
         <link href="Style/slide.css" rel="stylesheet">
         <link href="style/gallery.css" rel="stylesheet">
         <link href="Style/spoonser.css" rel="stylesheet">
+        <link href="Style/footer.css" rel="stylesheet">
     </head>
+
 <body>
     <center>
     <!--- Navigation Bar -->
@@ -23,7 +25,7 @@
             </div>
 
     <!---About the Event -->
-    <div class="what_is_event">
+    <div class="what_is_event" id="what_is_event">
         <div class="abtevent_text">
             <h1>What is Stark Expo.<br><br></h1>
                 <p>
@@ -40,7 +42,7 @@
     
     
     <!-- Highlights Of the Event-->
-    <div class="highlights">
+    <div class="highlights" id="highlights">
         <h1>Highlights</h1>
         <!---Ready MAde Code by W3school.com-->
         <hr>
@@ -166,7 +168,7 @@
         </table> 
     </div>
     <!--- Spoonser of the Event -->
-    <div class="spoonser">
+    <div class="spoonser" id="spoonser">
         <div class="spo" id="spo1">
                 <img src="Images/Card/stark.jpg">
                 <h2>Stark Industries</h2><br>
@@ -185,9 +187,20 @@
         </div>
     </div>
     <!--- Footer -->
-    <div class="footer">
-        <div class="footer_list"></div>
-        <div class="copyright"></div>
+    <div class="footer" id="footer">
+        <div class="footer_list">
+            <ul>
+                <li><a href="#what_is_event" class="list-item-b">What is Stark Expo.    </a></li>
+                <li><a href="#highlights" class="list-item-b">highlights    </a></li>
+                <li><a href="#gallery" class="list-item-b">Gallery  </a></li>
+                <li><a href="#spoonser" class="list-item-b">Spoonser    </a></li>
+                <li><a href="#footer" class="list-item-b">Bottom</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>&copy; Reserved OctoMus Web Creations</p>
+        </div>
+
     </div>
 </center>
 </body>
