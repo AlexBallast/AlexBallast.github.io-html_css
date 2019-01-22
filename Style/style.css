@@ -52,8 +52,10 @@ body{
 
 .what_is_event{
     font-size : 22px ;
-    position: relative;
     display: block;
+    background-color: brown;
+    z-index: 1;
+    display: flex;
     
 }
 
@@ -63,7 +65,7 @@ body{
     right : 40% ;
     text-align: left;
     display: inline;
-    position: absolute;
+   
 }
 
 .abtevent_img img{
@@ -73,17 +75,19 @@ body{
     float: right;
     left: 70%;
     display: inline;
-    position: static;
+
 }
 
 
 .highlights{
-    position: relative;
+   
     text-align: center;
-    top : 500px;
+    width: 100%;
     bottom: 0px;
     display: block;
+    height: 850px;
     width : 100%;
+    background-color: aqua;
 }
 
 .gallery{
